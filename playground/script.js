@@ -1,19 +1,39 @@
 // console.log("we're in")
 
-
-// let x = 3
-// let y = x
-
-// x = 4 
-
+// assign x the value of 3
+let x = 3
+// assign y the value of x
+let y = x
+// reassign x to the value of 4
+x = 4
 // // What is y?
+console.log(y)
 
-// let person = {name: "John", age: 12}
-// let person2 = person
-
-// person.name = "Adam"
-
+// assign person the value of an object
+let person = { name: "John", age: 12 }
+// assign2 person the value of person
+let person2 = person
+// reassign person2's name value to "Adam"
+person.name = "Adam"
 // // what is person2
+console.log(person2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const menu = [
     { name: "Lamb", veggy: false },
