@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background: url('https://i.redd.it/1iwcit1gidyy.jpg');
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    background-repeat: repeat-y;
+    background-size: cover;
+
+}
+
+#header {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+
+.monster-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+ }
+
+ .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, .7);
+	-webkit-backdrop-filter: blur(4px);
+	backdrop-filter: blur(4px);;
+    font-size: 1rem;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+  
+.card:hover {
+    transform: translateY(-3px) scale(1.1);
+ }
+
+ .like-btn {
+     border-radius: 8px;  
+     padding: 10px 24px;
+     background: rgba(247, 37, 133, .7);
+     border: 0;
+     box-shadow: none;
+     text-align: center;
+     text-decoration: none;
+     color: #fff;
+    -webkit-backdrop-filter: blur(4px);
+	backdrop-filter: blur(4px);;
+ }
