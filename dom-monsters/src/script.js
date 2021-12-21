@@ -1,4 +1,12 @@
 
+getData()
+
+function getData() {
+    fetch("http://localhost:3000/monsters")
+        .then(res => res.json())
+        .then((data) => data.forEach(renderMonster))
+}
+
 
 
 function renderMonster(monObj) {
@@ -17,9 +25,15 @@ function renderMonster(monObj) {
 
     monsterCard.append(name, likeBtn, image)
 
-    return monsterCard
+    document.querySelector('.monster-grid').appendChild(monsterCard)
 }
 
+// async function getData() {
+//     const res = await fetch("http://localhost:3000/monsters")
+//     const data = await res.json()
+
+//     console.log(data)
+// }
 
 
 
