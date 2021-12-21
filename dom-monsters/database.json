@@ -1,0 +1,70 @@
+{
+    "monsters": [
+        {
+            "name": "Bob",
+            "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/213.png",
+            "likes": 0,
+            "type": "cool"
+        },
+        {
+            "name": "Susan",
+            "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/432.png",
+            "likes": 0,
+            "type": "shy"
+        },
+        {
+            "name": "Eddie",
+            "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/455.png",
+            "likes": 0,
+            "type": "funny"
+        },
+        {
+            "name": "Jenny",
+            "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/132.png",
+            "likes": 0,
+            "type": "cool"
+        },
+        {
+            "name": "Brian",
+            "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/512.png",
+            "likes": 0,
+            "type": "shy"
+        },
+        {
+            "name": "Kris",
+            "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/267.png",
+            "likes": 0,
+            "type": "cool"
+        },
+        {
+            "name": "Hathor",
+            "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/178.png",
+            "likes": 0,
+            "type": "shy"
+        },
+        {
+            "name": "Mary",
+            "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/363.png",
+            "likes": 0,
+            "type": "cool"
+        },
+        {
+            "name": "Eric",
+            "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/494.png",
+            "likes": 0,
+            "type": "funny"
+        },
+        {
+            "name": "Jill",
+            "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/291.png",
+            "likes": 0,
+            "type": "cool"
+        },
+        {
+            "name": "Trini",
+            "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/183.png",
+            "likes": 0,
+            "type": "shy"
+        }
+    ]
+}

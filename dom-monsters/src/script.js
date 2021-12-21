@@ -1,12 +1,7 @@
 
-init(monsters)
-
-function init(monsters) {
-    monsters.forEach(renderCard)
-}
 
 
-function monsterCard(monObj) {
+function (monObj) {
     const monsterCard = document.createElement('div');
     monsterCard.className = 'card'
 
@@ -25,9 +20,6 @@ function monsterCard(monObj) {
     return monsterCard
 }
 
-function renderCard(mon) {
-    document.querySelector('.monster-grid').appendChild(monsterCard(mon))
-}
 
 
 
@@ -35,4 +27,4 @@ function renderCard(mon) {
     <p>Monster</p>
     <button class="like-btn"> ❤️ 0</button>
     <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png" alt="">
-</div> */}
+</div>  */}
