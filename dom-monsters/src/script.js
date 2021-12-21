@@ -1,7 +1,7 @@
 
 
 
-function (monObj) {
+function renderMonster(monObj) {
     const monsterCard = document.createElement('div');
     monsterCard.className = 'card'
 
