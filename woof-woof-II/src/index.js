@@ -1,11 +1,28 @@
 getDogs();
-// dogFilter();
+handleForm()
 
 function getDogs() {
     fetch('http://localhost:3000/pups')
         .then(res => res.json())
         .then(dogData => dogData.forEach(displayDog))
 }
+
+
+function handleForm() {
+
+    document.querySelector('form').addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        // grab the user input
+        const user_input = event.target.catchPhrase.value
+        console.log(user_input);
+        // update the catchPhrase section with that input
+        document.getElementById("phrase").innerText = user_input
+
+        event.target.reset()
+    })
+}
+
 
 function displayDog(doggo) {
     const dogBar = document.getElementById('dog-bar');
@@ -29,10 +46,19 @@ function displayDog(doggo) {
 
         const catchPhrase = document.createElement("h5")
         catchPhrase.innerText = "Catch Phrase: " + doggo.catch_phrase
+        catchPhrase.id = "phrase"
 
         const btn = document.createElement("button")
 
+
+
         btn.innerText = doggo.isGoodDog ? "Good Dog" : "Bad Dog"
+
+        // if(doggo.isGoodDog){
+        //     btn.innerText = "Good Dog" 
+        // } else {
+        //     btn.innerText = "Bad Dog"
+        // }
 
 
         doggoBox.append(pics, h2s, catchPhrase, btn)
