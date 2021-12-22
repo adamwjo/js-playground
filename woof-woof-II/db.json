@@ -1,0 +1,74 @@
+{
+  "pups": [
+    {
+      "id": 1,
+      "name": "Mr. Bonkers",
+      "isGoodDog": false,
+      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_1.jpg",
+      "catch_phrase": "cool"
+    },
+    {
+      "id": 2,
+      "name": "Nugget",
+      "isGoodDog": false,
+      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_2.jpg",
+      "catch_phrase": "woof woof"
+    },
+    {
+      "id": 3,
+      "name": "Skittles",
+      "isGoodDog": false,
+      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_3.jpg",
+      "catch_phrase": "bowow"
+    },
+    {
+      "id": 4,
+      "name": "Buttercup",
+      "isGoodDog": false,
+      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_4.jpg",
+      "catch_phrase": "chillin"
+    },
+    {
+      "id": 5,
+      "name": "Lucipher",
+      "isGoodDog": true,
+      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_5.jpg",
+      "catch_phrase": "where my dogs at"
+    },
+    {
+      "id": 6,
+      "name": "Snooper Pooper",
+      "isGoodDog": false,
+      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_6.jpg",
+      "catch_phrase": "noooooooo"
+    },
+    {
+      "id": 7,
+      "name": "Puddles",
+      "isGoodDog": true,
+      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_7.jpg",
+      "catch_phrase": "I left my family behind"
+    },
+    {
+      "id": 8,
+      "name": "Mittens",
+      "isGoodDog": true,
+      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_1.jpg",
+      "catch_phrase": "no thank you"
+    },
+    {
+      "id": 9,
+      "name": "Middens",
+      "isGoodDog": true,
+      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_2.jpg",
+      "catch_phrase": "next please"
+    },
+    {
+      "id": 10,
+      "name": "Fido",
+      "isGoodDog": true,
+      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_5.jpg",
+      "catch_phrase": "hahaha funny"
+    }
+  ]
+}
