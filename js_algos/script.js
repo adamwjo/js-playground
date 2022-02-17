@@ -4,7 +4,33 @@
 // --- Examples
 // maxChar("abcccccccd") === "c"
 // maxChar("apple 1231111") === "1"
+console.log(maxChar("abcccccccd"))
 
+function maxChar(str) {
+
+    // needs a counter
+    let max = 0
+    let maxChar = ''
+    const charMap = {}
+    // loop over the string
+    for (let char of str) {
+        if(charMap[char]){
+            charMap[char]++
+        } else {
+            charMap[char] = 1
+        }
+    }
+    // need a way "look at each one"
+    for (let char in charMap){
+        if(charMap[char] > max){
+            max = charMap[char]
+            maxChar = char
+        }
+    }
+
+    //returns a char
+    return maxChar
+}
 
 // --- Directions
 // Create a queue data structure.  The queue
@@ -12,9 +38,30 @@
 // Adding to the queue should store an element until
 // it is removed
 // --- Examples
-//     const q = new Queue();
-//     q.add(1);
-//     q.remove(); // returns 1;
+class Queue {
+    constructor(){
+        this.data = []
+    }
+
+    add(record){
+        this.data.unshift(record)
+    }
+
+    remove(){
+        return this.data.pop()
+    }
+
+    peek(){
+        return this.data[this.data.length - 1]
+    }
+
+
+
+
+}
+    const q = new Queue();
+    q.add(1);
+    q.remove(); // returns 1;
 
 
 // --- Directions
